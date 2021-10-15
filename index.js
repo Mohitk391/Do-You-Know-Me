@@ -98,7 +98,7 @@ while(flag && index>0){
 }
 console.log(`Your final score is: ${score}`);
 if(index<=4){
-  console.log(`${name} is ${index+1} in our highscore list. Congratulations!!`);
+  console.log(`${name} is number ${index+1} in our highscore list. Congratulations!!`);
 }
 else {
   console.log(`Sorry ${name}, you didn't made it to top 5 in our high score list. Better luck next time!!`);
